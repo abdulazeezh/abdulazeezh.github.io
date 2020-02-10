@@ -33,6 +33,11 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+p {
+    font-size: 1.5em;
+    line-height: 0.8em;
+    color: #333;
+}
 
 k1 {
     font-size: 3em;
