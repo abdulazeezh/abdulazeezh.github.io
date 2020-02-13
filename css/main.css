@@ -82,6 +82,6 @@ ul.posts li {
   display: table;
   clear: both;
 }
-div {
-  column-gap: 40px;
+.grid-container {
+  grid-column-gap: 50px;
 }
