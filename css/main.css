@@ -69,11 +69,11 @@ ul.posts li {
 }
 
 .left {
-  width: 120%;
+  width: 50%;
 }
 
 .right {
-  width: 30%;
+  width: 50%;
 }
 
 /* Clear floats after the columns */
