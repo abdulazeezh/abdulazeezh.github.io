@@ -77,11 +77,9 @@ ul.posts li {
 }
 
 /* Clear floats after the columns */
-/*.row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
 }
-.grid-container {
-  grid-column-gap: 50px;
-}*/
+
