@@ -64,19 +64,19 @@ ul.posts li {
     list-style: none;
 }
 
-/*.column {
+.column {
   float: left;
 }
 
 .left {
-  width: 50%;
+  width: 60%;
 }
 column {
   float: right;
 }
 
 .right {
-  width: 50%;
+  width: 40%;
 }
 
 /* Clear floats after the columns */
