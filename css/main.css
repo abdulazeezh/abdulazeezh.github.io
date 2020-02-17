@@ -19,6 +19,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
+a1 {
+    text-decoration: none;
+    color: #20B2AA;
+}
+a1:hover {
+    text-decoration: underline;
+}
 l {
     text-decoration: none;
     color: #34B0DA;
