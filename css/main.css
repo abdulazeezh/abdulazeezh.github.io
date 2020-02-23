@@ -35,9 +35,9 @@ l:hover {
 }
 h1 {
     font-size: 3em;
-    font-family: "Palatino Linotype", "Book Antiqua", 'Palatino', 'serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
-/*'Helvetica', 'Arial', 'Sans-Serif'*/
+/*'Helvetica', 'Arial', 'Sans-Serif'        "Palatino Linotype", "Book Antiqua", 'Palatino', 'serif'*/
 h2 {
     font-size: 1.8em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
