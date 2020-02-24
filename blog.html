@@ -7,6 +7,19 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
+						
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+			      <li><a href="/blog">Blog</a></li>
+			<li><a href="/Research">Research</a></li>
+			      <li><a href="/Publications">Publications</a></li>
+			      <li><a href="/Gallery">Gallery</a></li>
+			      <li><a href="/Contact">Contact</a></li>
+			
+       		
+    		</ul>
+		    </nav>
         
 	
   				<!--<link rel="stylesheet" type="text/css" href="/css/normalize.css">
@@ -63,39 +76,80 @@
 		          <p> Advanced Materials Research Laboratory (AMRL) Building </p>
 		          <p> Jakkur, Bangalore-560 064 </p>
 		          <p> Karnataka, India </p>-->
-									  <head>
-						  <meta name="viewport" margin: 50px auto; content="width=70%, initial-scale=1">
-						  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-						  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-						  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-						</head>
-						<body>
+		<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
 
-						<div class="container">
-						  <h2>Simple Collapsible</h2>
-						  <p>Click on the button to toggle between showing and hiding content.</p>
-						  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
-						  <div id="demo" class="collapse">
-						    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						  </div>
-						</div>
+.active, .collapsible:hover {
+  background-color: #555;
+}
 
-						</body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-			      <li><a href="/blog">Blog</a></li>
-			<li><a href="/Research">Research</a></li>
-			      <li><a href="/Publications">Publications</a></li>
-			      <li><a href="/Gallery">Gallery</a></li>
-			      <li><a href="/Contact">Contact</a></li>
-			
-       		
-    		</ul>
-		    </nav>
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>Animated Collapsibles</h2>
+
+<p>A Collapsible:</p>
+<button class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<p>Collapsible Set:</p>
+<button class="collapsible">Open Section 1</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 2</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
+
+		
 		
  	 </body>
 </html>
