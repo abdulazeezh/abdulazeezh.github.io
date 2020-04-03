@@ -3,7 +3,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Verdana', 'Geneva', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: 500;
@@ -41,7 +41,7 @@ div1 {
   
   opacity: 0.5;
 }
-/*'Helvetica', 'Arial', 'Sans-Serif'        "Palatino Linotype", "Book Antiqua", 'Palatino', 'serif'*/
+/*'Helvetica', 'Arial', 'Sans-Serif'    'Helvetica', 'Arial', 'Sans-Serif'    "Palatino Linotype", "Book Antiqua", 'Palatino', 'serif'*/
 h2 {
     font-size: 1.4em;
     font-family:'Verdana', 'Geneva', 'Sans-Serif';
