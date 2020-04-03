@@ -37,6 +37,10 @@ h1 {
     font-size: 3em;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+div {
+  
+  opacity: 0.5;
+}
 /*'Helvetica', 'Arial', 'Sans-Serif'        "Palatino Linotype", "Book Antiqua", 'Palatino', 'serif'*/
 h2 {
     font-size: 1.4em;
