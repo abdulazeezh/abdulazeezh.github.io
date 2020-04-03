@@ -6,7 +6,7 @@ nav ul, footer ul {
     font-family:'Verdana', 'Geneva', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-weight: 500;
+    font-weight: 1000;
 }
 nav ul li, footer ul li {
     display: inline;
