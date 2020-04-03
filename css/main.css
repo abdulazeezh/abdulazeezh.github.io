@@ -35,11 +35,11 @@ l:hover {
 }
 h1 {
     font-size: 3em;
-    font-family: 'Verdana', 'Geneva', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 div1 {
   
-  opacity: 0.5;
+  opacity: 0.7;
 }
 /*'Helvetica', 'Arial', 'Sans-Serif'    'Helvetica', 'Arial', 'Sans-Serif'    "Palatino Linotype", "Book Antiqua", 'Palatino', 'serif'*/
 h2 {
