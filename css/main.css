@@ -1,12 +1,11 @@
 body {
     margin: 50px auto;
     width: 70%;
+    border-left-style: solid;
+    border-left-color: grey;
        
 }
-h1 {
-  border-left-style: solid;
-  border-left-color: grey;
-}
+
 
 nav ul, footer ul {
     font-family:'Verdana', 'Geneva', 'Sans-Serif';
