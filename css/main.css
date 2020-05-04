@@ -1,15 +1,10 @@
 body {
     margin: 40px auto; /* 50, 70 top width*/
     width: 70%;  /* right width*/
-    margin-left: 120px; background-color: white;
+    margin-left: 150px; background-color: white;
           
 }
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
+
 
 nav ul, footer ul {
     font-family:'Verdana', 'Geneva', 'Sans-Serif';
