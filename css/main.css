@@ -4,7 +4,11 @@ body {
     margin-left: 150px; background-color: white;
           
 }
-
+.square {
+  height: 150px;
+  width: 50px;
+  background-color: #555;
+}
 
 nav ul, footer ul {
     font-family:'Verdana', 'Geneva', 'Sans-Serif';
