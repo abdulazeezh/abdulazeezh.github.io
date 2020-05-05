@@ -1,7 +1,8 @@
 body {
     margin: 40px auto; /* 50, 70 top width*/
     width: 70%;  /* right width*/
-    margin-left: 150px; background-color: white;
+    margin-left: 150px; 
+    color: #f0f0f0e;
           
 }
 
@@ -13,7 +14,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 75px;
+    margin-right: 72px;
     color: #404040
 }
 a {
