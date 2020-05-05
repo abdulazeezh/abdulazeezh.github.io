@@ -1,11 +1,8 @@
 body {
     margin: 40px auto; /* 50, 70 top width*/
     width: 75%;  /* right width*/
-    background: #b8a2a2;
-    background-repeat: no-repeat;
-    background-size: 300px 100px;
     
-          
+           
 }
 
 nav ul, footer ul {
