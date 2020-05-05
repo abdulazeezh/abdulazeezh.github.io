@@ -7,3 +7,4 @@ https://twitter.com/azeez_palakkad
 https://twitter.com/azeez_palakkad
 https://github.com/abdulazeezh/abdulazeezh.github.io/files/4215154/Timeline_OSC_2.pdf
 https://user-images.githubusercontent.com/41770833/81116843-b4f8b380-8f43-11ea-87f4-8a15dfd1acdd.jpg
+https://user-images.githubusercontent.com/41770833/81117512-d8702e00-8f44-11ea-9f0a-c016a3882d1a.jpg
