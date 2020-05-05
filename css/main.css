@@ -1,8 +1,11 @@
 body {
     margin: 40px auto; /* 50, 70 top width*/
     width: 75%;  /* right width*/
-    
-           
+    background-image: url('im.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+               
 }
 
 nav ul, footer ul {
