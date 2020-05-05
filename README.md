@@ -6,3 +6,4 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/solr.201900120
 https://twitter.com/azeez_palakkad
 https://twitter.com/azeez_palakkad
 https://github.com/abdulazeezh/abdulazeezh.github.io/files/4215154/Timeline_OSC_2.pdf
+https://user-images.githubusercontent.com/41770833/81116843-b4f8b380-8f43-11ea-87f4-8a15dfd1acdd.jpg
