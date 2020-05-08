@@ -97,6 +97,13 @@ ul.posts li {
     list-style: none;
 }
 img style="border:5px white"
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /*.column {
   float: left;
 }
