@@ -1,11 +1,10 @@
 body {
     margin: 40px auto; /* https://user-images.githubusercontent.com/41770833/81117512-d8702e00-8f44-11ea-9f0a-c016a3882d1a.jpg  50, 70 top width*/
     width: 75%;  /* right width*/
-    background-image: url('https://user-images.githubusercontent.com/41770833/81460231-a0c1ea00-91c1-11ea-933f-322b26546983.jpg');
+    background-image: url('https://user-images.githubusercontent.com/41770833/81117512-d8702e00-8f44-11ea-9f0a-c016a3882d1a.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
-    opacity: 0.7;
                
 }
 
