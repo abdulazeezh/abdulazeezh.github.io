@@ -6,7 +6,7 @@
   width: extend-to-zoom ;
   zoom: 1.0 ;
 }
-<meta name="viewport" content="width=device-width, initial-scale=1">
+/*<meta name="viewport" content="width=device-width, initial-scale=1">*/
 body {
     margin: 40px auto; /* https://user-images.githubusercontent.com/41770833/81117512-d8702e00-8f44-11ea-9f0a-c016a3882d1a.jpg  50, 70 top width*/
     width: 75%;  /* right width*/
