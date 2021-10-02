@@ -21,10 +21,19 @@ body {
 		<title>Abdul Azeez </title>
 		<!-- link to main stylesheet #f4f6f6 style="background-color:#f7f5f5;"-->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-
+                <style>
+                      a {
+                          display: block;
+                          color: white;
+                          text-align: center;
+                          /*padding: 5px 5px;*/
+                          text-decoration: none;
+                        }
+                </style>
+		
 	</head>
 	<body>
-		 <nav>
+		<!-- <nav>
     		<ul>
         		<li><a href="/">Home</a></li>
 	        	<li><a href="/about">About</a></li>
@@ -36,8 +45,44 @@ body {
 			
  		
     		</ul>
-		</nav> 
+		</nav>  -->
 		
+		
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<style>
+  a {
+  display: block;
+  color: white;
+  text-align: center;
+  /*padding: 5px 5px;*/
+  text-decoration: none;
+}
+</style>
+<header class="page-header">
+  <div class="page-header__top">
+    <div class='page-header__logo'>ABDUL AZEEZ</div>
+    <div class="page-header__toggle" onclick="toggleMenu()">☰</div>
+  </div>
+  <nav class="page-header__bottom">
+    <ul id="navigation" class="navigation">
+     <!--  <li class="navigation__item">Home</li>
+      <li class="navigation__item">About</li>
+      <li class="navigation__item">Blog</li>
+      <li class="navigation__item">Research</li>
+      <li class="navigation__item">Publication</li>
+      <li class="navigation__item">Gallery</li> -->
+      <li class="navigation__item"><a href="/about">About</a></li>
+      <li class="navigation__item"><a href="/blog">Blog</a></li>
+      <li class="navigation__item"><a href="/Research">Research</a></li>
+      <li class="navigation__item"><a href="/Publications">Publications</a></li>
+      <li class="navigation__item"><a href="/Gallery">Gallery</a></li>
+      <li class="navigation__item"><a href="/Contact">Contact</a></li>
+
+    </ul>
+  </nav>
+</header>
+<!-- partial -->
+<script  src="./script.js"></script>
 		
 		
 
